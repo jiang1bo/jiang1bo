@@ -147,7 +147,6 @@ jobs:
       # 设置缓存目录
       - name: Build the site
         run: |
-          
           hugo \
             --gc \            
             --minify \        

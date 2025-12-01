@@ -148,10 +148,10 @@ jobs:
       - name: Build the site
         run: |
           hugo \
-            --gc \            
-            --minify \        
-            --baseURL "https://${{ github.repository_owner }}.github.io/" \  
-            --cacheDir "${{ runner.temp }}/hugo_cache"         
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --cacheDir "${{ runner.temp }}/hugo_cache"        
       
       # 步骤 13: 保存缓存
       - name: Cache save

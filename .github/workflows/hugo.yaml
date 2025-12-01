@@ -152,7 +152,7 @@ jobs:
             --gc \
             --minify \
             
-            --baseURL "https://${{ github.repository_owner }}.github.io/"
+            --baseURL "https://${{ github.repository_owner }}.github.io/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"        
       
       # 步骤 13: 保存缓存

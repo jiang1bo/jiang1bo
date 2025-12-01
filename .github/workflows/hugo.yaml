@@ -144,30 +144,14 @@ jobs:
       # 启用垃圾回收（清理未使用的文件）
       # 启用最小化（压缩 HTML、CSS、JS）
       # 设置基础 URL（从 Pages 步骤获取）
-      #--baseURL "${{ steps.pages.outputs.base_url }}/" \
-      #--baseURL "https://${{ github.repository_owner }}.github.io/" \
       # 设置缓存目录
       - name: Build the site
-
         run: |
-  # 自动设置 baseURL，处理用户名仓库和项目仓库
-  if [ "${{ github.event.repository.name }}" = "${{ github.repository_owner }}.github.io" ]; then
-    # 用户名仓库
-    base_url="https://${{ github.repository_owner }}.github.io/"
-  else
-    # 项目仓库
-    base_url="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
-  fi
-  
-  echo "🚀 Building Hugo site for: $base_url"
-  
-  hugo \
-    --gc \
-    --minify \
-    --baseURL "$base_url" \
-    --cacheDir "${{ runner.temp }}/hugo_cache"
-  
-  echo "✅ Build completed successfully!"        
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --cacheDir "${{ runner.temp }}/hugo_cache"        
       
       # 步骤 13: 保存缓存
       - name: Cache save

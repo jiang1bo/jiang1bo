@@ -148,12 +148,26 @@ jobs:
       #--baseURL "https://${{ github.repository_owner }}.github.io/" \
       # 设置缓存目录
       - name: Build the site
+
         run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --cacheDir "${{ runner.temp }}/hugo_cache"        
+  # 自动设置 baseURL，处理用户名仓库和项目仓库
+  if [ "${{ github.event.repository.name }}" = "${{ github.repository_owner }}.github.io" ]; then
+    # 用户名仓库
+    base_url="https://${{ github.repository_owner }}.github.io/"
+  else
+    # 项目仓库
+    base_url="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+  fi
+  
+  echo "🚀 Building Hugo site for: $base_url"
+  
+  hugo \
+    --gc \
+    --minify \
+    --baseURL "$base_url" \
+    --cacheDir "${{ runner.temp }}/hugo_cache"
+  
+  echo "✅ Build completed successfully!"        
       
       # 步骤 13: 保存缓存
       - name: Cache save

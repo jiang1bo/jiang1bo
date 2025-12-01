@@ -140,14 +140,19 @@ jobs:
             hugo-                              # 前缀匹配，使用最近的缓存
       
       # 步骤 12: 构建网站（核心步骤）
+      # 使用 Hugo 构建静态网站，参数说明：
+      # 启用垃圾回收（清理未使用的文件）
+      # 启用最小化（压缩 HTML、CSS、JS）
+      # 设置基础 URL（从 Pages 步骤获取）
+      # 设置缓存目录
       - name: Build the site
         run: |
-          # 使用 Hugo 构建静态网站，参数说明：
+          
           hugo \
-            --gc \            # 启用垃圾回收（清理未使用的文件）
-            --minify \        # 启用最小化（压缩 HTML、CSS、JS）
-            --baseURL "https://${{ github.repository_owner }}.github.io/" \  # 设置基础 URL（从 Pages 步骤获取）
-            --cacheDir "${{ runner.temp }}/hugo_cache"          # 设置缓存目录
+            --gc \            
+            --minify \        
+            --baseURL "https://${{ github.repository_owner }}.github.io/" \  
+            --cacheDir "${{ runner.temp }}/hugo_cache"         
       
       # 步骤 13: 保存缓存
       - name: Cache save

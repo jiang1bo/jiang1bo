@@ -1,10 +1,9 @@
-baseURL = 'https://jiang1bo.github.io/jiang1bo/'
+baseURL = 'https://example.org/'
 #title = 'femris的博客网站'
 #languageCode = 'en-us' #en-us
 theme = 'FixIt' 
 defaultContentLanguage = 'zh-CN' 
-
-
+#svgFavicon = "/favicon.svg"
 #languageCode = 'zh-CN'
 
 [languages.zh-CN]
@@ -20,7 +19,7 @@ weight = 1
 #post: string 在名称之后添加其他信息。
 #typeit: bool 是否为标题显示打字机动画。
     [params.header.title]
-      logo = ""
+      logo = "image/favicon-96x96.png"
       name = "Fermi's Blog"
       pre = ""
       post = ""
@@ -58,8 +57,8 @@ weight = 1
     paginate = 10
     [params.home.profile]
       enable = true
-      gravatarEmail = "./web-app-manifest-512x512.png"
-      avatarURL = "./web-app-manifest-512x512.png"
+      gravatarEmail = ""
+      avatarURL = "image/favicon-96x96.png"
       avatarMenu = ""
       title = "你好,这里是ferm，一名python & linux开发工程师， 热爱技术和分享。喜欢探索新技术，解决实际问题。在这个博客中，我分享我的学习笔记、项目经验和生活感悟。"
       subtitle = "“如果你来访我，我不在，请和我门外的花坐一会儿，它们很温暖，我注视它们很多很多日子了。” ——汪曾祺《人间草木》"

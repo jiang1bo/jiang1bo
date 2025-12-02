@@ -2,7 +2,7 @@ baseURL = 'https://example.org/'
 #title = 'femris的博客网站'
 languageCode = 'en-us'
 theme = 'FixIt' 
-defaultContentLanguage = 'zh-cn' 
+defaultContentLanguage = 'zh-CN' 
 
 
 #title
@@ -235,6 +235,7 @@ defaultContentLanguage = 'zh-cn'
       #  crossorigin="anonymous"
       #  async>
       #  </script>
+      #origin = "https://giscus.app" # FixIt 0.3.7 | 新增 Or set it to your self-hosted domain
 
       # FixIt 0.2.14 | 新增 Giscus 评论系统设置
       [params.page.comment.giscus]
@@ -244,7 +245,7 @@ defaultContentLanguage = 'zh-cn'
         category = "General"
         categoryId = "DIC_kwDOQgMS0M4CzSCX"
         mapping = "pathname"
-        origin = "https://giscus.app" # FixIt 0.3.7 | 新增 Or set it to your self-hosted domain
+        origin = "https://giscus.app/client.js" # FixIt 0.3.7 | 新增 Or set it to your self-hosted domain
         strict = "0" # FixIt 0.2.18 | 新增
         term = ""
         reactionsEnabled = "1"
@@ -253,6 +254,7 @@ defaultContentLanguage = 'zh-cn'
         lightTheme = "light"
         darkTheme = "dark"
         lazyLoad = true
+        lang = "zh-CN"  # 设置语言
 
 
 #verification map 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu/360/Sogou。

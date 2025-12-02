@@ -1,9 +1,9 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://jiang1bo.github.io/jiang1bo/'
 #title = 'femris的博客网站'
 #languageCode = 'en-us' #en-us
 theme = 'FixIt' 
 defaultContentLanguage = 'zh-CN' 
-favicon = "./favicon.ico"
+
 
 #languageCode = 'zh-CN'
 

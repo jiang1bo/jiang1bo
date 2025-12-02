@@ -3,7 +3,7 @@ baseURL = 'https://example.org/'
 #languageCode = 'en-us' #en-us
 theme = 'FixIt' 
 defaultContentLanguage = 'zh-CN' 
-#svgFavicon = "/favicon.svg"
+svgFavicon = "/favicon.svg"
 #languageCode = 'zh-CN'
 
 [languages.zh-CN]

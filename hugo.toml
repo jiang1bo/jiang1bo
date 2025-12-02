@@ -18,7 +18,7 @@ weight = 1
 #post: string 在名称之后添加其他信息。
 #typeit: bool 是否为标题显示打字机动画。
     [params.header.title]
-      logo = ""
+      logo = "/assets/favicon.ico"
       name = "Fermi's Blog"
       pre = ""
       post = ""
@@ -35,7 +35,7 @@ weight = 1
     name = "fermi"
     email = "3044483124@qq.com"
     link = "https://jiangbos.top/"
-    avatar = "https://jiangbos.top/wp-content/uploads/2024/08/cropped-cropped-android-chrome2-512x512-1-96x96.png"
+    avatar = "../assets/web-app-manifest-512x512.png"
 
 
 #主页设置
@@ -56,8 +56,8 @@ weight = 1
     paginate = 10
     [params.home.profile]
       enable = true
-      gravatarEmail = "https://jiangbos.top/wp-content/uploads/2024/08/cropped-cropped-android-chrome2-512x512-1-96x96.png"
-      avatarURL = "https://jiangbos.top/wp-content/uploads/2024/08/cropped-cropped-android-chrome2-512x512-1-96x96.png"
+      gravatarEmail = "../assets/web-app-manifest-512x512.png"
+      avatarURL = "../assets/web-app-manifest-512x512.png"
       avatarMenu = ""
       title = "你好,这里是ferm，一名python & linux开发工程师， 热爱技术和分享。喜欢探索新技术，解决实际问题。在这个博客中，我分享我的学习笔记、项目经验和生活感悟。"
       subtitle = "“如果你来访我，我不在，请和我门外的花坐一会儿，它们很温暖，我注视它们很多很多日子了。” ——汪曾祺《人间草木》"
@@ -171,7 +171,7 @@ weight = 1
       # FixIt 0.2.18 | 新增 二维码图片展示模式，可选值：["static", "fixed"]，默认：`static`
       mode = "static"
       [params.page.reward.ways]
-        wechatpay = "/images/wechatpay.png"
+        wechatpay = "../assets/web-app-manifest-512x512.png"
         # alipay = "/images/alipay.png"
         # paypal = "/images/paypal.png"
         # bitcoin = "/images/bitcoin.png"

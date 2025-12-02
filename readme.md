@@ -1,6 +1,6 @@
 # 一个由hugo+fixlt搭建的博客网站
 
-<img src="./static/1.png"  title="blog images" style="zoom:67%;"  />
+<img src="/assets/1.png"  title="blog images" style="zoom:67%;"  />
 
 
 

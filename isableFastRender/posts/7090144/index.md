@@ -1,44 +1,5 @@
----
-title: Markdown 语法示例
-subtitle:
-date: 2025-11-29T12:56:18+08:00
-slug: 7090144
-draft: false
-author:
-  name:
-  link:
-  email:
-  avatar:
-description:
-keywords:
-license:
-comment: true
-weight: 0
-tags:
-  - markdown
-categories:
-  - markdown
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
+# Markdown 语法示例
 
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
----
 
 
 
@@ -259,3 +220,10 @@ markup:
 - [Markdown 速查表](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Markdown 教程](https://www.markdowntutorial.com/)
 - [Markdown 参考](https://commonmark.org/help/)
+
+
+---
+
+> 作者: <no value>  
+> URL: http://localhost:1313/posts/7090144/  
+

@@ -1,45 +1,5 @@
----
-title: 个人介绍
-subtitle:
-date: 2025-11-29T08:25:40+08:00
-slug: 06879af
-draft: false
-author:
-  name:
-  link:
-  email:
-  avatar:
-description:
-keywords:
-license:
-comment: true
-weight: 0
-tags:
-  - blog
-  - resume
-categories:
-  - resume
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRelated: false
-hiddenFromFeed: false
-summary:
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
-toc: true
-math: false
-lightgallery: false
-password:
-message:
-repost:
-  enable: true
-  url:
+# 个人介绍
 
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
----
 
 
 
@@ -70,4 +30,11 @@ repost:
 
 
 
+
+
+
+---
+
+> 作者: <no value>  
+> URL: http://localhost:1313/posts/06879af/  
 

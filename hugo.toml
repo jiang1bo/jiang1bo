@@ -212,13 +212,47 @@ defaultContentLanguage = 'zh-cn'
     [params.page.comment]
       enable = true
       # FixIt 0.1.1 | 新增 Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
-      [params.page.comment.gitalk]
-        enable = true
-        owner = "jiang1bo"
-        repo = "jiang1bo"
-        clientId = "Ov23li4c6tbHMoc0ABQD"
-        clientSecret = "a27f028b6a13cb0577027197179a83c97486b6b6"
+      #[params.page.comment.gitalk]
+      #  enable = true
+      #  owner = "jiang1bo"
+      #  repo = "jiang1bo"
+      #  clientId = "Ov23li4c6tbHMoc0ABQD"
+      #  clientSecret = "a27f028b6a13cb0577027197179a83c97486b6b6"
+      
 
+      #  <script src="https://giscus.app/client.js"
+      #  data-repo="jiang1bo/jiang1bo"
+      #  data-repo-id="R_kgDOQgMS0A"
+      #  data-category="General"
+      #  data-category-id="DIC_kwDOQgMS0M4CzSCX"
+      #  data-mapping="pathname"
+      #  data-strict="0"
+      #  data-reactions-enabled="1"
+      #  data-emit-metadata="0"
+      #  data-input-position="top"
+      #  data-theme="preferred_color_scheme"
+      #  data-lang="zh-CN"
+      #  crossorigin="anonymous"
+      #  async>
+      #  </script>
+
+      # FixIt 0.2.14 | 新增 Giscus 评论系统设置
+      [params.page.comment.giscus]
+        enable = true
+        repo = "jiang1bo/jiang1bo"
+        repoId = "R_kgDOQgMS0A"
+        category = "General"
+        categoryId = "DIC_kwDOQgMS0M4CzSCX"
+        mapping = "pathname"
+        origin = "https://giscus.app" # FixIt 0.3.7 | 新增 Or set it to your self-hosted domain
+        strict = "0" # FixIt 0.2.18 | 新增
+        term = ""
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "bottom" # ["top", "bottom"]
+        lightTheme = "light"
+        darkTheme = "dark"
+        lazyLoad = true
 
 
 #verification map 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu/360/Sogou。

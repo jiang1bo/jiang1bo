@@ -173,7 +173,7 @@ weight = 1
       # FixIt 0.2.18 | 新增 二维码图片展示模式，可选值：["static", "fixed"]，默认：`static`
       mode = "static"
       [params.page.reward.ways]
-        wechatpay = "web-app-manifest-512x512.png"
+        wechatpay = "https://raw.githubusercontent.com/jiang1bo/jiang1bo/refs/heads/main/assets/wechatpay.jpg"
         # alipay = "/images/alipay.png"
         # paypal = "/images/paypal.png"
         # bitcoin = "/images/bitcoin.png"

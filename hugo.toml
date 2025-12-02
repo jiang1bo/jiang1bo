@@ -210,14 +210,15 @@ defaultContentLanguage = 'zh-cn'
 
 # FixIt 0.2.15 | 更改 评论系统设置
     [params.page.comment]
-      enable = false
+      enable = true
       # FixIt 0.1.1 | 新增 Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        enable = true
+        owner = "jiang1bo"
+        repo = "jiang1bo"
+        clientId = "Ov23li4c6tbHMoc0ABQD"
+        clientSecret = "a27f028b6a13cb0577027197179a83c97486b6b6"
+
 
 
 #verification map 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu/360/Sogou。

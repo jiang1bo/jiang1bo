@@ -1,8 +1,13 @@
 baseURL = 'https://example.org/'
 #title = 'femris的博客网站'
-languageCode = 'en-us'
+#languageCode = 'en-us' #en-us
 theme = 'FixIt' 
 defaultContentLanguage = 'zh-CN' 
+#languageCode = 'zh-CN'
+
+[languages.zh-CN]
+languageCode = 'zh-CN'
+weight = 1
 
 
 #title

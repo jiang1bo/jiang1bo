@@ -18,7 +18,7 @@ weight = 1
 #post: string 在名称之后添加其他信息。
 #typeit: bool 是否为标题显示打字机动画。
     [params.header.title]
-      logo = "/assets/favicon.ico"
+      logo = "../assets/favicon.ico"
       name = "Fermi's Blog"
       pre = ""
       post = ""

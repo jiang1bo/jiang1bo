@@ -5,6 +5,8 @@ theme = 'FixIt'
 defaultContentLanguage = 'zh-CN' 
 #svgFavicon = "/favicon.svg"
 #languageCode = 'zh-CN'
+favicon = "favicon.ico"
+
 
 [languages.zh-CN]
 languageCode = 'zh-CN'

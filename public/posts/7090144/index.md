@@ -225,5 +225,5 @@ markup:
 ---
 
 > 作者: <no value>  
-> URL: https://jiang1bo.github.io/jiang1bo/posts/7090144/  
+> URL: http://localhost:1313/jiang1bo/posts/7090144/  
 

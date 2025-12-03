@@ -148,5 +148,5 @@ origin = "https://giscus.yourdomain.com"  # 自托管地址
 ---
 
 > 作者: <no value>  
-> URL: http://localhost:1313/posts/5e56024/  
+> URL: https://jiang1bo.github.io/jiang1bo/posts/5e56024/  
 

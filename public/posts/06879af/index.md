@@ -36,5 +36,5 @@
 ---
 
 > 作者: <no value>  
-> URL: https://example.org/posts/06879af/  
+> URL: http://localhost:1313/posts/06879af/  
 

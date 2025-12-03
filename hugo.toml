@@ -3,7 +3,7 @@ baseURL = 'https://example.org/'
 #languageCode = 'en-us' #en-us
 theme = 'FixIt' 
 defaultContentLanguage = 'zh-CN' 
-svgFavicon = "/favicon.svg"
+#svgFavicon = "/favicon.svg"
 #languageCode = 'zh-CN'
 
 [languages.zh-CN]
@@ -82,6 +82,22 @@ weight = 1
     cursorChar = "|"
     duration = -1
     loop = false
+
+
+# LoveIt 新增 | 0.2.0 应用图标配置
+  [params.app]
+    # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
+    title = "Fermi's Blog"
+    # 是否隐藏网站图标资源链接
+    noFavicon = false
+    # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
+    svgFavicon = "/favicon.svg"
+    # Android 浏览器主题色
+    themeColor = "#ffffff"
+    # Safari 图标颜色
+    iconColor = "#5bbad5"
+    # Windows v8-10磁贴颜色
+    tileColor = "#da532c"
 
 
 #可以参考位于 themes/FixIt/assets/data/social.yaml 的默认数据来配置你的社交链接。

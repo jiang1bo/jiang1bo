@@ -347,5 +347,5 @@ Go 语言凭借其**简洁性、高性能和强大的并发支持**，在云原�
 ---
 
 > 作者: <no value>  
-> URL: https://example.org/posts/b6a1b1e/  
+> URL: http://localhost:1313/posts/b6a1b1e/  
 

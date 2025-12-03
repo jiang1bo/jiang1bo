@@ -225,5 +225,5 @@ markup:
 ---
 
 > 作者: <no value>  
-> URL: https://example.org/posts/7090144/  
+> URL: http://localhost:1313/posts/7090144/  
 

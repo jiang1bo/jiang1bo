@@ -15,7 +15,7 @@
 <!--more-->
 
 ### 关键里程碑
-```chronology
+```
 2009 :: 开源发布，初版编译器
 2012 :: Go 1.0 发布，承诺向后兼容
 2015 :: Go 1.5 实现自举（用 Go 编译 Go）
@@ -28,7 +28,7 @@
 ## ⚡ Go 语言核心特点
 
 ### 1. **简洁易学的语法**
-```go
+```
 // 经典的 "Hello, World!"
 package main
 
@@ -45,7 +45,7 @@ const Version = "1.21"         // 常量
 ```
 
 ### 2. **强大的并发模型**
-```go
+```
 // Goroutine - 轻量级线程
 go func() {
     fmt.Println("Running in goroutine")
@@ -103,7 +103,7 @@ go doc          # 文档生成
 ## 🗺️ Go 语言学习路线
 
 ### 阶段 1：基础入门（1-2周）
-```go
+```
 // 学习重点：语法基础、数据类型、控制流
 package main
 
@@ -133,11 +133,12 @@ func add(a, b int) int {
 ```
 
 **学习资源**：
+
 - [A Tour of Go](https://tour.golang.org/)
 - 《Go 语言编程》
 
 ### 阶段 2：核心概念（2-3周）
-```go
+```
 // 学习重点：结构体、接口、错误处理、并发
 package main
 
@@ -180,12 +181,13 @@ func worker(id int, jobs <-chan int, results chan<- int) {
 ```
 
 **实践项目**：
+
 - 命令行工具
 - 简单的 Web API
 - 并发文件处理器
 
 ### 阶段 3：进阶技能（3-4周）
-```go
+```
 // 学习重点：标准库、测试、性能优化
 package main
 
@@ -233,7 +235,7 @@ func BenchmarkProcess(b *testing.B) {
 ## 🚀 Go 语言未来趋势
 
 ### 1. **云原生统治地位**
-```go
+```
 // Kubernetes、Docker 等云原生工具大量使用 Go
 package main
 
@@ -248,7 +250,7 @@ import (
 **趋势**：在容器编排、服务网格、云基础设施中持续增长
 
 ### 2. **微服务和 API 开发**
-```go
+```
 // 使用 Go 构建高效的微服务
 package main
 
@@ -270,7 +272,7 @@ func main() {
 - **加密货币工具**：钱包、交易所后端
 
 ### 4. **人工智能和机器学习**
-```go
+```
 // 虽然 Python 主导，但 Go 在基础设施层有优势
 import (
     "github.com/sjwhitworth/golearn/base"
@@ -324,7 +326,7 @@ import (
 4. **关注更新**：Go 语言发展迅速，关注新特性
 
 ### 避免的坑
-```go
+```
 // 常见错误示例
 var data []byte
 // 错误：未检查错误
@@ -347,5 +349,5 @@ Go 语言凭借其**简洁性、高性能和强大的并发支持**，在云原�
 ---
 
 > 作者: <no value>  
-> URL: http://localhost:1313/jiang1bo/posts/b6a1b1e/  
+> URL: https://jiang1bo.github.io/jiang1bo/posts/b6a1b1e/  
 

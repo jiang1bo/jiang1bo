@@ -1,5 +1,5 @@
 baseURL = 'https://jiang1bo.github.io/jiang1bo/'
-#title = 'femris的博客网站'
+title = 'Fermi'
 #languageCode = 'en-us' #en-us
 theme = 'FixIt' 
 defaultContentLanguage = 'zh-CN' 
@@ -60,7 +60,7 @@ weight = 1
     [params.home.profile]
       enable = true
       gravatarEmail = ""
-      avatarURL = "image/favicon-96x96.png"
+      avatarURL = "favicon-96x96.png"
       avatarMenu = ""
       title = "你好,这里是ferm，一名python & linux开发工程师， 热爱技术和分享。喜欢探索新技术，解决实际问题。在这个博客中，我分享我的学习笔记、项目经验和生活感悟。"
       subtitle = "“如果你来访我，我不在，请和我门外的花坐一会儿，它们很温暖，我注视它们很多很多日子了。” ——汪曾祺《人间草木》"

@@ -32,8 +32,8 @@ resources:
 toc: true
 math: false
 lightgallery: false
-password:
-message:
+password: 123456
+message: 123456
 repost:
   enable: true
   url:

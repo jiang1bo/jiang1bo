@@ -4,7 +4,7 @@
 
 ## 喜欢探索新技术，解决实际问题。
 
-## 在这里（[Fermi](https://jiang1bo.github.io/)），我分享我的学习笔记、项目经验和生活感悟。
+### 在这里（[Fermi](https://jiang1bo.github.io/)），我分享我的学习笔记、项目经验和生活感悟。
 
-## context with me ktamdz@163.com
+### contact with me： ktamdz@163.com
 
